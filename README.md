@@ -6,7 +6,6 @@ This router is an alternative to the one that ships with express.js. Instead of 
 you can define your routes in group closures, where it becomes easier to create and reason about the shared properties of your routes.
 
 Also, this router allows you to execute custom code for each route definition, which can be useful for many things,
-e.g. injecting dependencies into each request handler, or [automatically creating a swagger/openapi spec from your routes](https://github.com/shaunpersad/express-laravel-router/wiki/Swagger-spec-generation-example).
 
 There are also some extra features like being able to name and generate urls strings for each route.
 
@@ -96,7 +95,6 @@ router.group('/api', (router) => {
    
 });
 ```
-For more details, see the [wiki page](https://github.com/shaunpersad/express-laravel-router/wiki/Group-options).
 
 ### Route options
 The full route `options` object with their default values looks like this:
@@ -138,8 +136,6 @@ router.get('/api', (req, res) => {
    
 });
 ```
-For more details, see the [wiki page](https://github.com/shaunpersad/express-laravel-router/wiki/Route-options).
-
 ## Full API
 Below are all the methods available on a `router`.
 
